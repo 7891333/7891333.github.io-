@@ -1,65 +1,65 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<title>粉丝排行榜</title>
-<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<style>
-:root{
-  --bg:#f1f2f3;
-  --card:#ffffff99;
-  --blur:20px;
-  --shadow:0 8px 32px rgba(0,0,0,.08);
-  --red:#ff3b30;
-  --text:#000;
-  --sub:#8e8e93;
+！doctype！doctype！doctype！doctype>超文本标记语言超文本标记语言>
+超文本标记语言< 朗=>"zh-CN"
+>头<
+元< 字符集=>"UTF-8"
+>标题<粉丝排行榜>标题</
+元< 姓名="视口" 内容=>"宽度=设备宽度，初始比例=1，用户可缩放=否"
+>风格<
+：根{
+--bg：#f1f2f3；
+--CARD：#ffffff99；
+--模糊：20px；
+--阴影：08px32px rgba(0,0,0,.08);
+--红色：#ff3b30；
+--文本：#000；
+--sub：#8e8e93；
 }
 *{
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
-  -webkit-tap-highlight-color:transparent;
+框大小：边框框；
+页边距：0；
+填充：0；
+-webkit-tap-highlight-color：透明；
 }
-body{
-  font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB",sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  padding:20px 15px;
-  min-height:100vh;
+身体{
+font-family：-apple-system，BlinkMacSystemFont，"Helvetica Neue"，Helvetica"，"复方SC"，"平地无GB"，无衬线；
+背景：var(-bg)；
+颜色：var(--text)；
+填料：20px15px；
+最低高度：100vh；
 }
-h1{
-  font-size:28px;
-  font-weight:600;
-  text-align:center;
-  margin-bottom:25px;
-  letter-spacing:.5px;
+H1{
+font-size:28px；
+font-weight:600；
+文本对齐：居中；
+底边距：25px；
+字母间距：.5px；
 }
 .refresh{
-  display:block;
-  margin:0 auto 20px;
-  border:none;
-  background:var(--card);
-  backdrop-filter:blur(var(--blur));
-  -webkit-backdrop-filter:blur(var(--blur));
-  box-shadow:var(--shadow);
-  border-radius:12px;
-  padding:10px 20px;
-  font-size:16px;
-  font-weight:500;
-  color:var(--text);
+显示：块；
+页边距：0自动20px；
+边框：无；
+背景：var(--CARD)；
+背景过滤器：模糊(var(-blur))；
+-webkit-backdrop-filter:blur(var(--blur))；
+box-shadow:var(--shadow)；
+边界半径：12px；
+填料：10px20px；
+字体大小：16px；
+font-weight:500；
+颜色：var(--text)；
 }
 .list{
-  max-width:400px;
-  margin:0 auto;
+最大宽度：400px；
+页边距：0自动；
 }
 .item{
-  display:flex;
-  align-items:center;
-  background:var(--card);
-  backdrop-filter:blur(var(--blur));
-  -webkit-backdrop-filter:blur(var(--blur));
-  box-shadow:var(--shadow);
-  border-radius:16px;
+显示：柔性；
+对齐项：居中；
+背景：var(--CARD)；
+背景过滤器：模糊(var(-Blur))；
+-webkit-backdrop-filter:blur(var(--blur))；
+box-shadow:var(--shadow)；
+边界半径：16px；
   padding:16px 20px;
   margin-bottom:12px;
   opacity:0;
